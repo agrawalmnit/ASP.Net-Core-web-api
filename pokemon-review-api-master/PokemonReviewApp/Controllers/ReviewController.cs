@@ -38,6 +38,9 @@ namespace PokemonReviewApp.Controllers
             return Ok(reviews);
         }
 
+
+        
+        
         [HttpGet("{reviewId}")]
         [ProducesResponseType(200, Type = typeof(Review))]
         [ProducesResponseType(400)]
